@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: grey;
+}
+.container > app-popover {
+    display: flex;
+}

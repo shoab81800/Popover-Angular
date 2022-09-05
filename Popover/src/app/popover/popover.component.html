@@ -1,0 +1,16 @@
+<div class="btn">
+<div class="popover-btn">
+  <button class="tooltip-anchor" href="javascript:void(0)" (click)="openToolTip()" (blur)="closeToolTip($event)">
+    popover
+  </button>
+</div>
+  <div class="popover" *ngIf="showToolTip">
+    <div class="arrow"></div>
+    <div class="popover-content">
+      <span class="info-popover-content">
+        {{popoverMsgContent}}
+      </span>
+      <a href="#" class="close-popover">&times;</a>
+    </div>
+  </div>
+</div>
